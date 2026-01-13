@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -93,4 +94,186 @@ main .section1 .container .shovkes .shovkes_people .shovkes_button .shovkes_butt
 main .section1 .container .shovkes .shovkes_people2_rasm {
   padding-top: 70px;
   width: 500px;
-}/*# sourceMappingURL=main.css.map */
+}
+main .section2 .container .product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 60px;
+  margin-bottom: 114px;
+}
+main .section2 .container .product .Product_Designer {
+  width: 590px;
+}
+main .section2 .container .product .Product_Designer .product2 {
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 22px;
+  color: #FF5E69;
+}
+main .section2 .container .product .Product_Designer .product3 {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 59px;
+  padding-top: 15px;
+}
+main .section2 .container .product .Product_Designer2 {
+  width: 625px;
+  color: #666666;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 40px;
+}
+main .section3 .container .grid {
+  width: 1215px;
+  height: 700px;
+  margin-bottom: 70px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
+}
+main .section3 .container .grid .grid_rasm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 1/5;
+  grid-row: 1/3;
+}
+main .section3 .container .grid .grid_rasm:hover {
+  transform: scale(1.3);
+  border-radius: 100px;
+}
+main .section3 .container .grid .grid_rasm2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+main .section3 .container .grid .grid_rasm2:hover {
+  transform: scale(1.2);
+  border-radius: 100px;
+}
+main .section3 .container .grid .grid_rasm3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
+main .section3 .container .grid .grid_rasm3:hover {
+  transform: scaleX(1.2);
+  border-radius: 100px;
+}
+main .section3 .container .grid .grid_rasm4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-column: 4/5;
+  grid-row: 3/2;
+}
+main .section3 .container .grid .grid_rasm4:hover {
+  transform: scale(1.1);
+  border-radius: 100px;
+}
+
+footer {
+  background: #000000;
+}
+footer .container .finiw {
+  padding-top: 150px;
+  margin-bottom: 80px;
+}
+footer .container .finiw .finiw_h2 {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 59px;
+  color: #FFFFFF;
+  padding-bottom: 10px;
+}
+footer .container .finiw .finiw_h3 {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 59px;
+  color: #3C46FF;
+  padding-bottom: 10px;
+}
+footer .container .finiwi_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 125px;
+}
+footer .container .finiwi_content .portfolio {
+  width: 375px;
+}
+footer .container .finiwi_content .portfolio .portfolio_rasm {
+  width: 203px;
+  padding-bottom: 14px;
+}
+footer .container .finiwi_content .portfolio .portfolio_p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #666666;
+  padding-bottom: 9px;
+}
+footer .container .finiwi_content .portfolio .email {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+footer .container .finiwi_content .portfolio .email .email_a {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 36px;
+  color: #5C5C5C;
+}
+footer .container .finiwi_content .content {
+  width: 485px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .container .finiwi_content .content .blog {
+  width: 100px;
+}
+footer .container .finiwi_content .content .blog .blog_a {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer .container .finiwi_content .content .blog2 {
+  width: 100px;
+}
+footer .container .finiwi_content .content .blog2 .blog2_a {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer .container .finiwi_content .content .blog3 {
+  width: 100px;
+}
+footer .container .finiwi_content .content .blog3 .blog3_a {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 40px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+footer .container .finiwi2 {
+  display: flex;
+  gap: 5px;
+  padding-bottom: 30px;
+}
+footer .container .finiwi2 a {
+  text-decoration: none;
+  color: #666666;
+}
+
+@med;/*# sourceMappingURL=main.css.map */
